@@ -1,48 +1,13 @@
 Transformer
 ================
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+This application is the exchange gateway for NENT project.  It allows Qtum backed QRC20 compatible token ENT holder to redeem ERC20 token NENT on Ethereum blockchain.
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
+User will need to use Qtum wallet to generate a signed message with message to be user's Ethereum address.  Transformer servie will collect the signed messages and make it available for transformer workers.  Each worker will verify the signed message and mint/send ERC20 NENT token to designated Ethereum address of the user.
 
-Problems? Issues?
------------
+Worker
+------
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+Worker will share the same codebase.
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.4.4
-- Rails 4.2.10
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+TODO: deployment guide
