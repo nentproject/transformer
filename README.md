@@ -11,3 +11,6 @@ Worker
 Worker will share the same codebase.
 
 TODO: deployment guide
+
+
+Step 1: Load Snapshot data into transformer site and each worker

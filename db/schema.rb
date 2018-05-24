@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180524181739) do
+ActiveRecord::Schema.define(version: 20180524183754) do
+
+  create_table "bfcies", force: :cascade do |t|
+    t.string   "qtum_address", limit: 255
+    t.integer  "amount",       limit: 8
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
+  add_index "bfcies", ["qtum_address"], name: "index_bfcies_on_qtum_address", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  limit: 255, default: "", null: false
