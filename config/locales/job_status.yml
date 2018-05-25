@@ -1,0 +1,15 @@
+en:
+  enumerations:
+    job_status:
+      pending: "Pending"
+      processing: "Processing"
+      successful: "Successful"
+      failed: "Failed"
+
+'zh-CN':
+  enumerations:
+    job_status:
+      pending: "待处理"
+      processing: "处理中"
+      successful: "成功"
+      failed: "失败"
