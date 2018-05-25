@@ -2,7 +2,7 @@ class Bfcy < ActiveRecord::Base
   has_many :claims
   has_one :job
 
-  validates_presence_of :qtum_address, :amount
-  validates_uniqueness_of :qtum_address
+  validates_presence_of :amount
+  validates :qtum_address, qtum_address: true, presence: true, uniqueness: true
 
 end

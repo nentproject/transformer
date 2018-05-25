@@ -19,9 +19,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+"zh-CN":
   activerecord:
     # models:
     messages:
-      invalid_email: Invalid Email
-      invalid_qtum_address: Invalid Qtum Address
+      invalid_email: 邮件地址不正确
+      invalid_qtum_address: Qtum地址不正确
