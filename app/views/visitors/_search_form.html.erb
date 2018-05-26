@@ -1,0 +1,19 @@
+<%= simple_form_for(:search, url: search_path, remote: true, html: { id: 'search', method: :post }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :qtum_address %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "search" %>
+  </div>
+<% end %>
+
+<div id="bfcySearchProgress" class="collapse"></div>
+
+<div id="bfcyResult" class="collapse">
+  <span class="qtum-address"></span>
+  <span class="ent-amount"></span>
+</div>
+

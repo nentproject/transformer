@@ -28,4 +28,15 @@ en:
         invalid_qtum_address: Invalid Qtum Address
         invalid_eth_address: Signed message should be Ethereum address, cannot recognize
         invalid_signature: Signature Verification Failed
-      
+  
+  simple_form:
+    labels:
+      defaults:
+        qtum_address: Qtum Address
+    hints:
+      defaults:
+        qtum_address: Please input Qtum address    
+    placeholders:
+      defaults:
+        abc: abc
+    

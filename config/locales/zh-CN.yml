@@ -28,3 +28,14 @@
         invalid_qtum_address: Qtum地址不正确
         invalid_eth_address: 签名消息应为Ethereum地址，但是无法识别
         invalid_signature: 签名验证错误
+
+  simple_form:
+    labels:
+      defaults:
+        qtum_address: 量子链Qtum钱包地址
+    hints:
+      defaults:
+        qtum_address: 请输入量子链Qtum钱包地址
+    placeholders:
+      defaults:
+        abc: abc
