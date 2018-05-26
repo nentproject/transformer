@@ -16,6 +16,7 @@ gem 'mysql2', '~> 0.3.18'
 gem 'simple_form'
 
 gem 'bitcoin-ruby'
+gem 'ethereum.rb'
 gem 'enumerate_it'
 gem 'resque', :require => "resque/server"
 

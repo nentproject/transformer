@@ -22,6 +22,10 @@
 en:
   activerecord:
     # models:
-    messages:
-      invalid_email: Invalid Email
-      invalid_qtum_address: Invalid Qtum Address
+    errors:
+      messages:
+        invalid_email: Invalid Email
+        invalid_qtum_address: Invalid Qtum Address
+        invalid_eth_address: Signed message should be Ethereum address, cannot recognize
+        invalid_signature: Signature Verification Failed
+      
